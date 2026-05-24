@@ -1,0 +1,9 @@
+CREATE TABLE people
+(
+id int PRIMARY KEY IDENTITY(1, 1),
+name VARCHAR(15),
+vehical VARCHAR(15)
+);
+INSERT INTO people
+VALUES ('SADIK', 'RS457'), ('SALEEM', 'RR310'), ('KALEEM', 'VW-TIGUN'), ('KHAJA', 'R15');
+SELECT * FROM people;
