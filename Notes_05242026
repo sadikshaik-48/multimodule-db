@@ -1,0 +1,9 @@
+Understanding Databases, Schemas, Tables, Columns and Understanding which model is required for which business.
+
+-- DATABASE - SCHEMA - TABLES - COLUMNS
+
+-- Imagine you have businesses in [INDIA] and they are [Business_School, Business_Office]
+-- india_businesses - school,business - students,employees - id,name,email
+-- ind_biz, usa_biz, uk_biz -
+
+
