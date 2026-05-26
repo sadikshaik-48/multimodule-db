@@ -1,0 +1,5 @@
+Tasks to be completed by may-28-2026 EOD.
+Learn untile sql LIKE Operator.
+If any concept unable to understand, keep a note of it & ignore that concept trainer will explain.
+for every lesson create an sql file with querries that were practiced 
+By friday commit all the sql files to git
