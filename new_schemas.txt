@@ -1,0 +1,21 @@
+CREATE TABLE entertainment.movies (
+    movie_id INT PRIMARY KEY IDENTITY(1,1),
+    movie_name VARCHAR(100),
+    genre VARCHAR(50),
+    rating DECIMAL(2,1),
+    collection_cr INT,
+    language VARCHAR(50)
+);
+SELECT *  from entertainment.movies;
+
+CREATE TABLE automobile.vehicles(
+	[id] [int] PRIMARY KEY IDENTITY(1,1) NOT NULL,
+	[company] [varchar](20) ,
+	[model] [varchar](30),
+	[cc] [varchar](20),
+	[torque] [varchar](20),
+	[price] [varchar](20),
+	[type] [varchar](20) NULL,
+	[fuel_type] [varchar](15)
+);
+SELECT * FROM automobile.vehicles;
