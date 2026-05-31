@@ -1,0 +1,14 @@
+select * from automobile.vehicles
+
+select *,
+CASE 
+	WHEN price <1000000 THEN 'Avg Car'
+	WHEN price > 1000000 AND price < 2000000 THEN 'Normal Car'
+	WHEN price > 2000000 AND price < 3000000 THEN 'Super Car'
+	WHEN price > 3000000 AND price < 4000000 THEN 'Hyper Car'
+	ELSE 'SuperDuper Car'
+END AS Car_Type
+from automobile.vehicles
+
+
+SELECT 10*20
